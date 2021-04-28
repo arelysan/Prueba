@@ -1,0 +1,308 @@
+{
+  "id": "272c5591-809d-4f9c-82e1-543e12c6daff",
+  "version": "2.0",
+  "name": "fravega",
+  "url": "https://www.fravega.com/",
+  "tests": [{
+    "id": "d1c6c774-00fa-4460-a110-666a0c563764",
+    "name": "Recorrido-Heladera",
+    "commands": [{
+      "id": "d5260b93-62f8-43da-8776-d2af1c91646e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fravega.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10b09324-e1e8-4a73-acf4-572f1f733a88",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1210x670",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6600caa0-338f-4859-a28a-6a4ec18768f2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21cab871-0cef-4432-9d6d-2461a0c94c88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeolocalizationDesktop__Button-wgxe4i-14 path",
+      "targets": [
+        ["css=.GeolocalizationDesktop__Button-wgxe4i-14 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cf43fc4-c078-4328-afee-2665009e048c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.InputBar__SearchInput-t6v2m1-1",
+      "targets": [
+        ["css=.InputBar__SearchInput-t6v2m1-1", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/header/div[2]/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4874bf-b8de-4867-958c-de58e7ab61c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bd72f49-5193-4770-af9e-10b1c4191d0d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.InputBar__SearchInput-t6v2m1-1",
+      "targets": [
+        ["css=.InputBar__SearchInput-t6v2m1-1", "css:finder"],
+        ["xpath=//input[@value='heladera']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/header/div[2]/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "heladera"
+    }, {
+      "id": "173e515c-7916-4c4e-97d6-257d72fb5a00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.InputBar__SearchButton-t6v2m1-2 > svg",
+      "targets": [
+        ["css=.InputBar__SearchButton-t6v2m1-2 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "828daeef-b647-472b-bc51-3c5d140e66e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Menos de $ 49.999 (69)",
+      "targets": [
+        ["linkText=Menos de $ 49.999 (69)", "linkText"],
+        ["css=.styled__WrapperShow-b53mn-0 > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div/ul/li[2]/ul/li[9]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//li[9]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Menos de $ 49.999 (69)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6441e5ae-752d-4a79-972f-37228f689dae",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .PieceTitle-sc-1eg7yvt-0",
+      "targets": [
+        ["css=li:nth-child(1) .PieceTitle-sc-1eg7yvt-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[2]/section/ul/li/article/a/div/div/h4", "xpath:idRelative"],
+        ["xpath=//div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Heladera Cíclica Patrick HPK135M00B01 277Lt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25cc7f20-6be0-402b-81ad-7c78050f477f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdb73d73-db09-4776-8f82-248950a2cdfa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,606.6666870117188)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5002a76c-f553-4627-a15f-dc3c4950285b",
+    "name": "Fravega-SelecciónMarca",
+    "commands": [{
+      "id": "39caf748-1f43-4f46-a2ef-c304336b49f5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.fravega.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d07d9c95-f9f5-4bfc-9ba3-e52ad215d7e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1210x670",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f2fb00e-3cbc-443a-8858-73fc222c4c75",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.InfoBar__InfoItem-sc-6slyyt-1:nth-child(5) p",
+      "targets": [
+        ["css=.InfoBar__InfoItem-sc-6slyyt-1:nth-child(5) p", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div/header/div/div/a[5]/div/p", "xpath:idRelative"],
+        ["xpath=//a[5]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Centro de Ayuda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c08ffa3-0382-41a6-a46d-dd4df14f6559",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GeolocalizationDesktop__Button-wgxe4i-14 path",
+      "targets": [
+        ["css=.GeolocalizationDesktop__Button-wgxe4i-14 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ff6be32-7972-4f48-bf31-05112c41ab0f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e49a7249-683c-4bff-b581-84d3b5011834",
+      "comment": "",
+      "command": "click",
+      "target": "css=.InputBar__SearchInput-t6v2m1-1",
+      "targets": [
+        ["css=.InputBar__SearchInput-t6v2m1-1", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/header/div[2]/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3353511-9984-4fb8-a94e-070726442535",
+      "comment": "",
+      "command": "type",
+      "target": "css=.InputBar__SearchInput-t6v2m1-1",
+      "targets": [
+        ["css=.InputBar__SearchInput-t6v2m1-1", "css:finder"],
+        ["xpath=//input[@value='heladera']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/header/div[2]/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "heladera"
+    }, {
+      "id": "295a272c-7ad4-4561-b109-35c0d69354df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.InputBar__SearchButton-t6v2m1-2",
+      "targets": [
+        ["css=.InputBar__SearchButton-t6v2m1-2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div/header/div[2]/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7856bbf0-dea4-4bb8-81a3-8a097370783e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db71c05f-cd09-43b2-a6c1-eb8e66c5d02a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Hogar, Muebles y Jardín",
+      "targets": [
+        ["linkText=Hogar, Muebles y Jardín", "linkText"],
+        ["css=.Categories__StyledItemCategory-m0ao24-2:nth-child(4) > .Categories__StyledLinkCategory-m0ao24-3", "css:finder"],
+        ["xpath=//a[contains(text(),'Hogar, Muebles y Jardín')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/header/div/header/div[4]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fravega.com/categorias/hogar-muebles-jardin')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hogar, Muebles y Jardín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ae9c3c6-0f6f-4db9-b7b2-33a1d5eb7af5",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .styled__Toggle-c638c2-2 > label",
+      "targets": [
+        ["css=li:nth-child(3) > .styled__Toggle-c638c2-2 > label", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div/ul/li[2]/ul/li[5]/ul/li[3]/a/label", "xpath:idRelative"],
+        ["xpath=//li[3]/a/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Inelro (23)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1ef62df-e732-487d-abb4-aff229a0273c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(1) .PieceLayout-orsj2a-0",
+      "targets": [
+        ["css=li:nth-child(1) .PieceLayout-orsj2a-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[2]/section/ul/li/article/a/div", "xpath:idRelative"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2496426c-29a8-4591-9e93-f79b138514ca",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(1) .PieceLayout-orsj2a-0",
+      "targets": [
+        ["css=li:nth-child(1) .PieceLayout-orsj2a-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[2]/section/ul/li/article/a/div", "xpath:idRelative"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9518a6ee-83e4-438f-be34-560da740cc34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Borrar",
+      "targets": [
+        ["linkText=Borrar", "linkText"],
+        ["css=.styled__RemoveFilters-sc-1bs0ce-2", "css:finder"],
+        ["xpath=//a[contains(text(),'Borrar')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div/ul/li[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Borrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f168c93d-5b8f-40db-9c5e-2099e48025d6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) > .CategoriesFilter__ContainerWithChildren-cdvx6t-0 h4",
+      "targets": [
+        ["css=li:nth-child(2) > .CategoriesFilter__ContainerWithChildren-cdvx6t-0 h4", "css:finder"],
+        ["xpath=(//h4[@name='subcategoryAggregation'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div/ul/li[2]/ul/li[2]/ul/li[2]/a/h4", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li[2]/a/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Conservadoras (17)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a90298c1-92b2-4144-b93a-4c6eb74e8704",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(2) > .CategoriesFilter__ContainerWithChildren-cdvx6t-0 h4",
+      "targets": [
+        ["css=li:nth-child(2) > .CategoriesFilter__ContainerWithChildren-cdvx6t-0 h4", "css:finder"],
+        ["xpath=(//h4[@name='subcategoryAggregation'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div/ul/li[2]/ul/li[2]/ul/li[2]/a/h4", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li[2]/a/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Conservadoras (17)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f90c8d1d-fe78-4191-86af-96e2f0121dcf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d1c6c774-00fa-4460-a110-666a0c563764"]
+  }],
+  "urls": ["https://www.fravega.com/"],
+  "plugins": []
+}
